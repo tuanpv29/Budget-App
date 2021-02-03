@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Budget App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/82bb699038.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-11 mx-auto pt-3">
+        <!-- Title -->
+        <h1 class="text-uppercase">budget app</h1>
+        <div class="row">
+          <div class="col-md-5 my-3">
+            <!-- Budget form -->
+            <form action="#">
+              <div class="form-group">
+                <label for="budget">Please Enter Your Budget</label>
+                <input type="number" class="form-control" id="budget">
+              </div>
+              <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+          </div>
+          <div class="col-md-7 my-3">
+            <!-- App info -->
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <h3>Budget</h3>
+                <div>
+                  <span><i class="far fa-money-bill-alt"></i></span>
+                </div>
+                <div>
+                  <span>$0</span>
+                </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h3>Expenses</h3>
+                <div>
+                  <span><i class="fas fa-shopping-cart"></i></i></span>
+                </div>
+                <div>
+                  <span>$0</span>
+                </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h3>Balance</h3>
+                <div>
+                  <span><i class="fas fa-piggy-bank"></i></span>
+                </div>
+                <div>
+                  <span>$0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 my-3">
+            <!-- Expense form -->
+            <form action="#">
+              <div class="form-group">
+                <label for="budget">Please Enter Your Expense</label>
+                <input type="text" class="form-control" id="budget">
+              </div>
+              <div class="form-group">
+                <label for="budget">Please Enter Expense Amount</label>
+                <input type="number" class="form-control" id="budget">
+              </div>
+              <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+          </div>
+          <div class="col-md-7 my-3">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <h3>Expense Title</h3>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h3>Expense Value</h3>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h3>List</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
